@@ -1,0 +1,15 @@
+{
+	"name": "Current Selections",
+	"description": "Object to list the current selections in the application. This can be used for exporting/printing sheets and stories where the current selections are not shown.",
+	"icon": "text-image",
+	"type": "visualization",
+	"version": "1.0.0",
+	"author": "Richard Byard",
+	"homepage": "",
+	"keywords": "qlik-sense, visualization, current selections",
+	"license": "",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=1.0.x"
+	}
+}
