@@ -1,7 +1,7 @@
 <h2>Qlik Sense Current Selections Text Box</h2>
 <br>
 <br>
-A very simple Qlik Sense extension that allows users to show the selections currently set in an application. This has been requested for use cases where exporting / printing a sheet or story to PDF or Powerpoint but the selections do not show.
+A very simple Qlik Sense extension that allows users to show the selections currently set in an application. This has been requested for use cases where exporting / printing a sheet or story to PDF or Powerpoint and the selections are required to be shown.
 <br>
 <br>
 <br>
