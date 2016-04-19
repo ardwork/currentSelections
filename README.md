@@ -15,6 +15,6 @@ There are no instructions, simply drag the 'Current Selections' object onto your
 <br>
 <h3>Testing</h3>
 Tested with Qlik Sense 2.2.3<br>
-Note: At the time of testing extensions do not print to PDF or PowerPoint and appear as invalid object areas. This will hopefully be addressed soon to allow the fulll fuctionality of export sheets and stories to be available across extensions.
+Note: At the time of testing extensions do not print to PDF or PowerPoint and appear as invalid object areas. This will hopefully be addressed soon to allow the fulll fuctionality of export sheets and stories to be available across extensions.<br>
 
 
