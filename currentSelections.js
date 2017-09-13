@@ -1,9 +1,8 @@
 ////////////////////////////////////////////////////
-//Version: 	1.1.0
+//Version: 	1.2
 //Author:  	Richard Byard
-//Author:   Tom Jans
 //Usage:	Current Selections
-//Date:		18 May 2016
+//Date:		13 Sept 2017
 ////////////////////////////////////////////////////
 
 // Array of field to label translations
@@ -46,6 +45,12 @@ define([
             snapshot: {
                 cantTakeSnapshot: true
             },
+			
+			//Allow export for printing
+			support : {
+			export: true
+			},
+			
             //paint function creates the visualisation. - this one makes a very basic table with no selections etc.
             paint: function($element, layout) {
                 app = qlik.currApp(this);
@@ -68,6 +73,10 @@ define([
                 					$element.empty();
                 					$element.append('<div>Something went wrong: ' + err + '</div>');
                         } */
+			
+			// to allow for printing			
+			return qlik.Promise.resolve();
+			
             }
         }
     }
